@@ -20,7 +20,7 @@ body{
 }
 
 .main_container{
-    width: 35%;
+    width: 30%;
     margin: 40px auto;
     padding: 15px 15px 15px 15px;
     display: flex;
@@ -137,45 +137,59 @@ body{
         min-height: 30vh;
     }
     .result_container{
-        margin-top: 100px;
+        margin-top: 120px;
     }
     
 }
 
-@media only screen and (min-width:375px) and (max-width:425px){
+@media only screen and (min-width:375px) and (max-width:446px){
     .main_container{
         width: 85%;
         margin: 10px auto;
-        min-height: 79vh;
+        min-height: 60vh;
     }
     .result_container{
-        margin-top: 105px;
+        margin-top: 120px;
     }
     .preloader{
         margin-top: 10px;
     }
 }
 
-@media only screen and (min-width:425px) and (max-width:768px){
+@media only screen and (min-width:446px) and (max-width:620px){
     .main_container{
-        width: 70%;
+        width: 65%;
         margin: 10px auto;
-        min-height: 80vh;
+        min-height: 60vh;
     }
     .result_container{
-        margin-top: 105px;
+        margin-top: 120px;
     }
 }
 
 
-@media only screen and (min-width:795px) and (max-width:1000px){
+@media only screen and (min-width:620px) and (max-width:790px){
     .main_container{
-        width: 50%;
+        width: 55%;
         margin: 10px auto;
-        min-height: 76vh;
+        min-height: 60vh;
     }
     .result_container{
-        margin-top: 100px;
+        margin-top: 120px;
+    }
+    .preloader{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width:790px) and (max-width:1200px){
+    .main_container{
+        width: 38%;
+        margin: 10px auto;
+        min-height: 60vh;
+    }
+    .result_container{
+        margin-top: 120px;
     }
     .preloader{
         margin-top: 10px;
