@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Clima</title>
+</head>
+<body>
+    <h1 class="title">Consulta el clima de todo el mundo</h1>
+    <div class="main_container">
+        <div class="form_container">
+            <form action="post" id="form">
+                <div class="location_container">
+                    <label for="location" class="input_label">Ciudad</label>
+                    <input type="text" name="" id="location" placeholder="Buenos Aires">
+                </div>
+                <div class="countrie_container">
+                    <label for="countrie" class="input_label">Pais</label>
+                    <input type="text" id="countrie" placeholder="Argentina">
+                </div>
+                <div class="submit_container">
+                    <input type="submit" value="Buscar Clima" id="submit">
+                </div>
+            </form>
+        </div>
+        <div class="result_container">
+        </div>
+    </div>
+    <script src="./js/app.js" type="module"></script>
+</body>
+</html>
